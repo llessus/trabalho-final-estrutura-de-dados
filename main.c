@@ -35,10 +35,7 @@ int main() {
                 
                 resultado_str = getFormaPosFixa(expressao);
                 printf("Forma POSFIXA: %s\n", resultado_str);
-                // ATENÇÃO: Se as funções em expressao.c usarem `static char result[]`,
-                // você NÃO deve chamar free(resultado_str) aqui.
-                // Na última versão que te dei de expressao.c, as funções usam `static`,
-                // então REMOVA a linha `free(resultado_str);` se estiver usando essa versão.
+            
                 break;
 
             case 2:
